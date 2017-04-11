@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E31DC8261E9C4AE400FB10EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31DC8251E9C4AE400FB10EF /* Images.xcassets */; };
+		E3438AC71E9CEE6A00521459 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3438AC61E9CEE6A00521459 /* Images.xcassets */; };
 		E3ABFA961E98E5DE008E26F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABFA951E98E5DE008E26F7 /* AppDelegate.swift */; };
 		E3ABFA981E98E5DE008E26F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3ABFA971E98E5DE008E26F7 /* ViewController.swift */; };
 		E3ABFA9B1E98E5DE008E26F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3ABFA991E98E5DE008E26F7 /* Main.storyboard */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E31DC8251E9C4AE400FB10EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../../.Trash/Images.xcassets; sourceTree = "<group>"; };
+		E3438AC61E9CEE6A00521459 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3ABFA921E98E5DE008E26F7 /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3ABFA951E98E5DE008E26F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3ABFA971E98E5DE008E26F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		E3ABFA941E98E5DE008E26F7 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
-				E31DC8251E9C4AE400FB10EF /* Images.xcassets */,
+				E3438AC61E9CEE6A00521459 /* Images.xcassets */,
 				E3ABFA951E98E5DE008E26F7 /* AppDelegate.swift */,
 				E3ABFA971E98E5DE008E26F7 /* ViewController.swift */,
 				E3ABFA991E98E5DE008E26F7 /* Main.storyboard */,
@@ -123,7 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31DC8261E9C4AE400FB10EF /* Images.xcassets in Resources */,
+				E3438AC71E9CEE6A00521459 /* Images.xcassets in Resources */,
 				E3ABFAA01E98E5DE008E26F7 /* LaunchScreen.storyboard in Resources */,
 				E3ABFA9B1E98E5DE008E26F7 /* Main.storyboard in Resources */,
 			);

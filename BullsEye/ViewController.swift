@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     var score: Int = 0
     var roundNumber = 0
     var scoreString : String = ""
+    var cuurentScore : Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,13 +53,13 @@ class ViewController: UIViewController {
     @IBAction func showAlert(){
         
         calculateScore()
+
+        
+        let alert = UIAlertController(title: "\(scoreString)", message: "you scored\(cuurentScore)\n your value is \(currentValue)\n the target value is \(targetValue)", preferredStyle : .alert)
+        
         startNewRound()
         setLabels()
 
-        
-        let alert = UIAlertController(title: "\(scoreString)", message: "you scored\(score)\n your value is \(currentValue)\n the target value is \(targetValue)", preferredStyle : .alert)
-        
-        
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
         
         
@@ -103,15 +104,16 @@ class ViewController: UIViewController {
     func calculateScore(){
         
         let difference  = abs(currentValue - targetValue)
+        cuurentScore = 100 - difference
+
         
-        score = abs(100 - difference)
         if(difference == 0)
         {
-            score += 100
+            cuurentScore += 100
             scoreString = "Perfect!"
         }
         else if(difference < 5){
-            score += 50
+            cuurentScore += 50
             scoreString = "You almost had it!"
             
         }
@@ -123,6 +125,9 @@ class ViewController: UIViewController {
             scoreString = "Not even close"
  
         }
+        
+        score = score + cuurentScore
+
         
     }
 
