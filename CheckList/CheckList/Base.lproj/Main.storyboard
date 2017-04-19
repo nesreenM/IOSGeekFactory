@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="B1v-hB-pSF">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Checklist View Controller-->
+        <scene sceneID="DAk-7X-w2N">
+            <objects>
+                <tableViewController id="B1v-hB-pSF" customClass="ChecklistViewController" customModule="CheckList" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5qW-yB-WTg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="CheckListItem" id="1WM-7t-z8U" customClass="CheckListItemCell" customModule="CheckList" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1WM-7t-z8U" id="pln-yJ-mqP">
+                                    <rect key="frame" x="0.0" y="0.0" width="281" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyk-MO-0bV">
+                                            <rect key="frame" x="0.0" y="0.0" width="281" height="44"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tyk-MO-0bV" firstAttribute="top" secondItem="pln-yJ-mqP" secondAttribute="top" id="DiW-o9-7WY"/>
+                                        <constraint firstAttribute="bottom" secondItem="tyk-MO-0bV" secondAttribute="bottom" id="Kj0-WB-XWl"/>
+                                        <constraint firstAttribute="trailing" secondItem="tyk-MO-0bV" secondAttribute="trailing" id="mP2-FJ-JDb"/>
+                                        <constraint firstItem="tyk-MO-0bV" firstAttribute="leading" secondItem="pln-yJ-mqP" secondAttribute="leading" id="qDL-pY-X9f"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="itemTitleLabel" destination="tyk-MO-0bV" id="C9m-7J-yNB"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="B1v-hB-pSF" id="pSx-7o-Ta5"/>
+                            <outlet property="delegate" destination="B1v-hB-pSF" id="42z-im-Oig"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tJV-Ad-4UB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="107"/>
+        </scene>
+    </scenes>
+</document>

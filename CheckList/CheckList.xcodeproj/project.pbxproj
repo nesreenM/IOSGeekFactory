@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E31C0AFF1EA6CF8700664299 /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E31C0AFE1EA6CF8700664299 /* Image.xcassets */; };
-		E31C0B021EA6DF9500664299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E31C0B001EA6DF9500664299 /* Main.storyboard */; };
-		E31C0B041EA6E0B100664299 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = E31C0B031EA6E0B100664299 /* refresh.png */; };
-		E37888561EA402F6000A713F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37888551EA402F6000A713F /* AppDelegate.swift */; };
-		E37888581EA402F6000A713F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37888571EA402F6000A713F /* ViewController.swift */; };
-		E37888601EA402F6000A713F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E378885E1EA402F6000A713F /* LaunchScreen.storyboard */; };
+		E3D5B5DB1EA4E66100B31434 /* CheckListItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3D5B5DA1EA4E66100B31434 /* CheckListItemCell.swift */; };
+		E3FA367D1EA4DC6B00BA70B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA367C1EA4DC6B00BA70B8 /* AppDelegate.swift */; };
+		E3FA367F1EA4DC6B00BA70B8 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FA367E1EA4DC6B00BA70B8 /* ChecklistViewController.swift */; };
+		E3FA36821EA4DC6B00BA70B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA36801EA4DC6B00BA70B8 /* Main.storyboard */; };
+		E3FA36841EA4DC6B00BA70B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FA36831EA4DC6B00BA70B8 /* Assets.xcassets */; };
+		E3FA36871EA4DC6B00BA70B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FA36851EA4DC6B00BA70B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E31C0AFE1EA6CF8700664299 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
-		E31C0B011EA6DF9500664299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E31C0B031EA6E0B100664299 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refresh.png; path = ../../../Downloads/refresh.png; sourceTree = "<group>"; };
-		E37888521EA402F6000A713F /* MemoryGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemoryGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E37888551EA402F6000A713F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E37888571EA402F6000A713F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E378885F1EA402F6000A713F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E37888611EA402F6000A713F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3D5B5DA1EA4E66100B31434 /* CheckListItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListItemCell.swift; sourceTree = "<group>"; };
+		E3FA36791EA4DC6B00BA70B8 /* CheckList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3FA367C1EA4DC6B00BA70B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3FA367E1EA4DC6B00BA70B8 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		E3FA36811EA4DC6B00BA70B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3FA36831EA4DC6B00BA70B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3FA36861EA4DC6B00BA70B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3FA36881EA4DC6B00BA70B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E378884F1EA402F5000A713F /* Frameworks */ = {
+		E3FA36761EA4DC6B00BA70B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +37,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E37888491EA402F5000A713F = {
+		E3FA36701EA4DC6B00BA70B8 = {
 			isa = PBXGroup;
 			children = (
-				E37888541EA402F6000A713F /* MemoryGame */,
-				E37888531EA402F6000A713F /* Products */,
-				E31C0AFE1EA6CF8700664299 /* Image.xcassets */,
-				E31C0B031EA6E0B100664299 /* refresh.png */,
+				E3FA367B1EA4DC6B00BA70B8 /* CheckList */,
+				E3FA367A1EA4DC6B00BA70B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E37888531EA402F6000A713F /* Products */ = {
+		E3FA367A1EA4DC6B00BA70B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E37888521EA402F6000A713F /* MemoryGame.app */,
+				E3FA36791EA4DC6B00BA70B8 /* CheckList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E37888541EA402F6000A713F /* MemoryGame */ = {
+		E3FA367B1EA4DC6B00BA70B8 /* CheckList */ = {
 			isa = PBXGroup;
 			children = (
-				E37888551EA402F6000A713F /* AppDelegate.swift */,
-				E37888571EA402F6000A713F /* ViewController.swift */,
-				E378885E1EA402F6000A713F /* LaunchScreen.storyboard */,
-				E37888611EA402F6000A713F /* Info.plist */,
-				E31C0B001EA6DF9500664299 /* Main.storyboard */,
+				E3FA367C1EA4DC6B00BA70B8 /* AppDelegate.swift */,
+				E3FA367E1EA4DC6B00BA70B8 /* ChecklistViewController.swift */,
+				E3FA36801EA4DC6B00BA70B8 /* Main.storyboard */,
+				E3D5B5DA1EA4E66100B31434 /* CheckListItemCell.swift */,
+				E3FA36831EA4DC6B00BA70B8 /* Assets.xcassets */,
+				E3FA36851EA4DC6B00BA70B8 /* LaunchScreen.storyboard */,
+				E3FA36881EA4DC6B00BA70B8 /* Info.plist */,
 			);
-			path = MemoryGame;
+			path = CheckList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E37888511EA402F5000A713F /* MemoryGame */ = {
+		E3FA36781EA4DC6B00BA70B8 /* CheckList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E37888641EA402F6000A713F /* Build configuration list for PBXNativeTarget "MemoryGame" */;
+			buildConfigurationList = E3FA368B1EA4DC6B00BA70B8 /* Build configuration list for PBXNativeTarget "CheckList" */;
 			buildPhases = (
-				E378884E1EA402F5000A713F /* Sources */,
-				E378884F1EA402F5000A713F /* Frameworks */,
-				E37888501EA402F5000A713F /* Resources */,
+				E3FA36751EA4DC6B00BA70B8 /* Sources */,
+				E3FA36761EA4DC6B00BA70B8 /* Frameworks */,
+				E3FA36771EA4DC6B00BA70B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MemoryGame;
-			productName = MemoryGame;
-			productReference = E37888521EA402F6000A713F /* MemoryGame.app */;
+			name = CheckList;
+			productName = CheckList;
+			productReference = E3FA36791EA4DC6B00BA70B8 /* CheckList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E378884A1EA402F5000A713F /* Project object */ = {
+		E3FA36711EA4DC6B00BA70B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Nesreen Mamdouh";
 				TargetAttributes = {
-					E37888511EA402F5000A713F = {
+					E3FA36781EA4DC6B00BA70B8 = {
 						CreatedOnToolsVersion = 8.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = E378884D1EA402F5000A713F /* Build configuration list for PBXProject "MemoryGame" */;
+			buildConfigurationList = E3FA36741EA4DC6B00BA70B8 /* Build configuration list for PBXProject "CheckList" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,55 +111,55 @@
 				en,
 				Base,
 			);
-			mainGroup = E37888491EA402F5000A713F;
-			productRefGroup = E37888531EA402F6000A713F /* Products */;
+			mainGroup = E3FA36701EA4DC6B00BA70B8;
+			productRefGroup = E3FA367A1EA4DC6B00BA70B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E37888511EA402F5000A713F /* MemoryGame */,
+				E3FA36781EA4DC6B00BA70B8 /* CheckList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E37888501EA402F5000A713F /* Resources */ = {
+		E3FA36771EA4DC6B00BA70B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E31C0B021EA6DF9500664299 /* Main.storyboard in Resources */,
-				E31C0B041EA6E0B100664299 /* refresh.png in Resources */,
-				E37888601EA402F6000A713F /* LaunchScreen.storyboard in Resources */,
-				E31C0AFF1EA6CF8700664299 /* Image.xcassets in Resources */,
+				E3FA36871EA4DC6B00BA70B8 /* LaunchScreen.storyboard in Resources */,
+				E3FA36841EA4DC6B00BA70B8 /* Assets.xcassets in Resources */,
+				E3FA36821EA4DC6B00BA70B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E378884E1EA402F5000A713F /* Sources */ = {
+		E3FA36751EA4DC6B00BA70B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E37888581EA402F6000A713F /* ViewController.swift in Sources */,
-				E37888561EA402F6000A713F /* AppDelegate.swift in Sources */,
+				E3D5B5DB1EA4E66100B31434 /* CheckListItemCell.swift in Sources */,
+				E3FA367F1EA4DC6B00BA70B8 /* ChecklistViewController.swift in Sources */,
+				E3FA367D1EA4DC6B00BA70B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E31C0B001EA6DF9500664299 /* Main.storyboard */ = {
+		E3FA36801EA4DC6B00BA70B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E31C0B011EA6DF9500664299 /* Base */,
+				E3FA36811EA4DC6B00BA70B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		E378885E1EA402F6000A713F /* LaunchScreen.storyboard */ = {
+		E3FA36851EA4DC6B00BA70B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E378885F1EA402F6000A713F /* Base */,
+				E3FA36861EA4DC6B00BA70B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +167,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E37888621EA402F6000A713F /* Debug */ = {
+		E3FA36891EA4DC6B00BA70B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +217,7 @@
 			};
 			name = Debug;
 		};
-		E37888631EA402F6000A713F /* Release */ = {
+		E3FA368A1EA4DC6B00BA70B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -260,52 +260,52 @@
 			};
 			name = Release;
 		};
-		E37888651EA402F6000A713F /* Debug */ = {
+		E3FA368C1EA4DC6B00BA70B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MemoryGame/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesreen.test.MemoryGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nesreen.test.CheckList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E37888661EA402F6000A713F /* Release */ = {
+		E3FA368D1EA4DC6B00BA70B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				INFOPLIST_FILE = MemoryGame/Info.plist;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheckList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nesreen.test.MemoryGame;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nesreen.test.CheckList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E378884D1EA402F5000A713F /* Build configuration list for PBXProject "MemoryGame" */ = {
+		E3FA36741EA4DC6B00BA70B8 /* Build configuration list for PBXProject "CheckList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E37888621EA402F6000A713F /* Debug */,
-				E37888631EA402F6000A713F /* Release */,
+				E3FA36891EA4DC6B00BA70B8 /* Debug */,
+				E3FA368A1EA4DC6B00BA70B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E37888641EA402F6000A713F /* Build configuration list for PBXNativeTarget "MemoryGame" */ = {
+		E3FA368B1EA4DC6B00BA70B8 /* Build configuration list for PBXNativeTarget "CheckList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E37888651EA402F6000A713F /* Debug */,
-				E37888661EA402F6000A713F /* Release */,
+				E3FA368C1EA4DC6B00BA70B8 /* Debug */,
+				E3FA368D1EA4DC6B00BA70B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E378884A1EA402F5000A713F /* Project object */;
+	rootObject = E3FA36711EA4DC6B00BA70B8 /* Project object */;
 }
