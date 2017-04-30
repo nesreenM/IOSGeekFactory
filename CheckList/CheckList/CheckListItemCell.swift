@@ -11,6 +11,7 @@ import UIKit
 class CheckListItemCell: UITableViewCell {
 
     @IBOutlet var itemTitleLabel: UILabel!
+    @IBOutlet var itemCheckLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -21,6 +22,10 @@ class CheckListItemCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    override func prepareForReuse() {
+        itemTitleLabel.text = ""
     }
 
 }
